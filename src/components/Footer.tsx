@@ -1,6 +1,7 @@
 import React from 'react';
 import { Dumbbell, MapPin, Phone, MessageSquare, Clock, Heart, ArrowUp } from 'lucide-react';
 import { GYM_DETAILS } from '../data/gymData';
+import logoImg from '../../assets/fitness_zone_logo.webp';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -17,7 +18,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="assets/fitness_zone_logo.webp"
+                src={logoImg}
                 alt="Fitness Zone Logo"
                 className="w-10 h-10 object-contain rounded-xl shadow-lg"
               />
