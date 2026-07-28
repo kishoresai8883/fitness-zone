@@ -69,7 +69,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
           className="flex items-center gap-3 cursor-pointer group"
         >
           <img
-            src="/assets/fitness_zone_logo.webp"
+            src="assets/fitness_zone_logo.webp"
             alt="Fitness Zone Logo"
             className="w-10 h-10 object-contain rounded-xl shadow-lg shadow-red-500/20 group-hover:scale-105 transition-transform"
           />

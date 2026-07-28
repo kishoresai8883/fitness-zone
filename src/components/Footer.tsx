@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/assets/fitness_zone_logo.webp"
+                src="assets/fitness_zone_logo.webp"
                 alt="Fitness Zone Logo"
                 className="w-10 h-10 object-contain rounded-xl shadow-lg"
               />
