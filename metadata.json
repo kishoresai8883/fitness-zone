@@ -1,0 +1,6 @@
+{
+  "name": "Fitness Zone",
+  "description": "Premium Gym and Fitness Center in Hyderabad - Custom Membership, Programs, Class Schedule, BMI Calculator, Trial Signups, and Direct Contact",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
