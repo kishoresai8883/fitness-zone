@@ -65,8 +65,9 @@ export default function App() {
       {/* Footer */}
       <Footer />
 
-      {/* Mobile Sticky Quick Action Bar */}
+      {/* Mobile Sticky Quick Action Bar 
       <StickyMobileBar onOpenInquiry={handleOpenInquiry} />
+      */}
 
       {/* Interactive Modal for Pass Claiming / Inquiries */}
       <ContactModal
