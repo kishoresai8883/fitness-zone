@@ -1,8 +1,9 @@
 {
-  "name": "react-example",
+  "name": "fitness-zone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kishoresai8883.github.io/fitness-zone/",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
