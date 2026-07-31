@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Dumbbell, Phone, MessageSquare, Menu, X, Flame, MapPin } from 'lucide-react';
 import { GYM_DETAILS } from '../data/gymData';
-import logoImg from '../../assets/fitness_zone_logo.webp';
+import logoImg from '../../assets/aura.jpg';
 
 interface NavbarProps {
   onOpenInquiry: (planName?: string) => void;
@@ -76,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
           />
           <div>
             <div className="text-xl sm:text-2xl font-black tracking-tight text-white flex items-center gap-1">
-              FITNESS<span className="text-amber-500">ZONE</span>
+              AURA X<span className="text-amber-500">GYM</span>
             </div>
             <div className="text-[10px] text-slate-400 font-semibold uppercase tracking-widest -mt-1">
               Hyderabad
@@ -140,7 +140,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
               onClick={() => scrollToSection('about')}
               className="text-left py-2 border-b border-slate-800/80 hover:text-amber-400"
             >
-              About Fitness Zone
+              About Aura X
             </button>
             <button
               onClick={() => scrollToSection('programs')}

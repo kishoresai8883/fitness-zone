@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dumbbell, MapPin, Phone, MessageSquare, Clock, Heart, ArrowUp } from 'lucide-react';
 import { GYM_DETAILS } from '../data/gymData';
-import logoImg from '../../assets/fitness_zone_logo.webp';
+import logoImg from '../../assets/aura.jpg';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
                 className="w-10 h-10 object-contain rounded-xl shadow-lg"
               />
               <span className="text-2xl font-black tracking-tight text-white">
-                FITNESS<span className="text-amber-500">ZONE</span>
+                AURA X<span className="text-amber-500"> GYM</span>
               </span>
             </div>
 
@@ -59,7 +59,7 @@ export const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-2 text-xs font-semibold">
               <li>
-                <a href="#about" className="hover:text-amber-400 transition-colors">About Fitness Zone</a>
+                <a href="#about" className="hover:text-amber-400 transition-colors">About Aura X</a>
               </li>
               <li>
                 <a href="#programs" className="hover:text-amber-400 transition-colors">Fitness Programs</a>
@@ -103,7 +103,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            © {new Date().getFullYear()} Fitness Zone Hyderabad. All Rights Reserved.
+            © {new Date().getFullYear()} Aura X Gym Hyderabad. All Rights Reserved.
           </div>
 
           <button

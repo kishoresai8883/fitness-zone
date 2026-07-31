@@ -6,7 +6,7 @@ export const Testimonials: React.FC = () => {
   return (
     <section id="reviews" className="py-20 md:py-28 bg-slate-900 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 font-extrabold text-xs tracking-widest uppercase">
@@ -17,7 +17,7 @@ export const Testimonials: React.FC = () => {
             WHAT OUR MEMBERS <span className="text-amber-500">SAY</span>
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            Real stories from working professionals, students, and fitness enthusiasts in Jubilee Hills & Madhapur.
+            Real stories from working professionals, students, and fitness enthusiasts in Kukatpally.
           </p>
         </div>
 

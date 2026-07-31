@@ -11,7 +11,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenInquiry })
 
   const faqs = [
     {
-      q: 'What are the gym operating timings at Fitness Zone?',
+      q: 'What are the gym operating timings at Aura X?',
       a: 'We are open Monday to Saturday from 6:00 AM to 10:00 PM continuously, and Sunday from 7:00 AM to 1:00 PM.',
     },
     {
@@ -27,15 +27,15 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenInquiry })
       a: 'Yes, our certified nutritionists design customized meal charts keeping local South and North Indian food habits in mind (rice, biryani alternatives, rotis, paneer, eggs, chicken, etc.).',
     },
     {
-      q: 'Where is Fitness Zone located in Hyderabad?',
-      a: 'We are located on Jubilee Hills - Madhapur Main Road (Road No. 36, Near Metro Pillar 1650), easily accessible from Hitec City, Gachibowli, and Film Nagar.',
+      q: 'Where is Aura X located in Hyderabad?',
+      a: 'We are located on Prashanthi Nagar, Kukatpally.',
     },
   ];
 
   return (
     <section id="contact" className="py-20 md:py-28 bg-slate-950 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-red-400 font-extrabold text-xs tracking-widest uppercase">
@@ -52,10 +52,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenInquiry })
 
         {/* Contact Banner & Quick Buttons */}
         <div className="grid lg:grid-cols-12 gap-12 items-start mb-20">
-          
+
           {/* Left Info Column */}
           <div className="lg:col-span-5 space-y-6">
-            
+
             <div className="p-8 rounded-3xl bg-slate-900 border border-slate-800 space-y-6 shadow-2xl">
               <h3 className="text-2xl font-black text-white uppercase tracking-tight">
                 Instant Contact
@@ -215,9 +215,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenInquiry })
                 >
                   <span>{faq.q}</span>
                   <ChevronDown
-                    className={`w-5 h-5 text-amber-500 transition-transform ${
-                      openFaq === index ? 'rotate-180' : ''
-                    }`}
+                    className={`w-5 h-5 text-amber-500 transition-transform ${openFaq === index ? 'rotate-180' : ''
+                      }`}
                   />
                 </button>
 

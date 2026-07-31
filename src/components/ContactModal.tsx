@@ -29,7 +29,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
 
     const messagePayload = `Hi Fitness Zone Hyderabad!\nName: ${name}\nPhone: ${phone}\nTopic: ${selectedTopic}\nTime: ${preferredTime}`;
     const url = `https://wa.me/919550637183?text=${encodeURIComponent(messagePayload)}`;
-    
+
     setTimeout(() => {
       window.open(url, '_blank');
     }, 400);
@@ -38,7 +38,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md animate-in fade-in duration-200">
       <div className="bg-slate-900 border border-amber-500/30 rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative overflow-hidden">
-        
+
         <button
           onClick={onClose}
           className="absolute top-4 right-4 p-2 rounded-full bg-slate-800 text-slate-400 hover:text-white focus:outline-none"
@@ -69,7 +69,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
           <div>
             <div className="flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-1">
               <Flame className="w-4 h-4 text-red-500" />
-              Fitness Zone Hyderabad
+              Aura X Hyderabad
             </div>
 
             <h3 className="text-2xl font-black text-white uppercase mb-2">

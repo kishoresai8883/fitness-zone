@@ -17,12 +17,12 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenInquiry }) => {
   return (
     <section id="why-us" className="py-20 md:py-28 bg-slate-900 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 font-extrabold text-xs tracking-widest uppercase">
             <Zap className="w-3.5 h-3.5" />
-            The Fitness Zone Advantage
+            The Aura X Advantage
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white uppercase tracking-tight">
             WHY WE ARE HYDERABAD'S <span className="text-amber-500">#1 CHOICE</span>
@@ -43,7 +43,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenInquiry }) => {
                 <div className="w-14 h-14 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center group-hover:scale-110 group-hover:border-amber-500 transition-all">
                   {iconsMap[item.icon]}
                 </div>
-                
+
                 <h3 className="text-xl font-black text-white group-hover:text-amber-400 transition-colors">
                   {item.title}
                 </h3>
@@ -69,7 +69,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenInquiry }) => {
               Ready to feel the difference?
             </div>
             <h4 className="text-2xl sm:text-3xl font-black text-white uppercase">
-              EXPERIENCE FITNESS ZONE FOR 3 DAYS FREE
+              EXPERIENCE AURA X FOR 3 DAYS FREE
             </h4>
             <p className="text-xs sm:text-sm text-slate-300">
               No pressure. No long-term commitments. Try our equipment and group classes risk-free.
