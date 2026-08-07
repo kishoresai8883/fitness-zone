@@ -1,9 +1,9 @@
 {
-  "name": "fitness-zone",
+  "name": "gym",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kishoresai8883.github.io/fitness-zone/",
+  "homepage": "https://kishoresai8883.github.io/gym/",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
