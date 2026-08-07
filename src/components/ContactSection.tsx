@@ -11,7 +11,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenInquiry })
 
   const faqs = [
     {
-      q: 'What are the gym operating timings at Aura X?',
+      q: 'What are the gym operating timings at Gym?',
       a: 'We are open Monday to Saturday from 6:00 AM to 10:00 PM continuously, and Sunday from 7:00 AM to 1:00 PM.',
     },
     {
@@ -27,7 +27,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenInquiry })
       a: 'Yes, our certified nutritionists design customized meal charts keeping local South and North Indian food habits in mind (rice, biryani alternatives, rotis, paneer, eggs, chicken, etc.).',
     },
     {
-      q: 'Where is Aura X located in Hyderabad?',
+      q: 'Where is The Gym located in Hyderabad?',
       a: 'We are located on Prashanthi Nagar, Kukatpally.',
     },
   ];
@@ -89,7 +89,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onOpenInquiry })
                   <div>
                     <div className="text-xs text-emerald-400 font-bold uppercase">WhatsApp Instant Chat</div>
                     <div className="text-base font-black text-white group-hover:text-emerald-400 transition-colors">
-                      Chat with Fitness Zone Team
+                      Chat with The Gym Team
                     </div>
                   </div>
                 </a>

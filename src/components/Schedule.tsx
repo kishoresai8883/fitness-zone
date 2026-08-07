@@ -18,7 +18,7 @@ export const Schedule: React.FC<ScheduleProps> = ({ onOpenInquiry }) => {
   return (
     <section id="schedule" className="py-20 md:py-28 bg-slate-950 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 font-extrabold text-xs tracking-widest uppercase">
@@ -34,21 +34,20 @@ export const Schedule: React.FC<ScheduleProps> = ({ onOpenInquiry }) => {
         </div>
 
         <div className="grid lg:grid-cols-12 gap-12 items-start">
-          
+
           {/* Timetable Column */}
           <div className="lg:col-span-7 space-y-6">
-            
+
             {/* Day Selector */}
             <div className="flex flex-wrap gap-2 p-2 rounded-2xl bg-slate-900 border border-slate-800">
               {days.map((day) => (
                 <button
                   key={day}
                   onClick={() => setSelectedDay(day)}
-                  className={`flex-1 py-3 px-2 rounded-xl font-black text-xs uppercase transition-all ${
-                    selectedDay === day
+                  className={`flex-1 py-3 px-2 rounded-xl font-black text-xs uppercase transition-all ${selectedDay === day
                       ? 'bg-amber-500 text-slate-950 shadow-md'
                       : 'text-slate-400 hover:text-white hover:bg-slate-800'
-                  }`}
+                    }`}
                 >
                   {day}
                 </button>
@@ -95,11 +94,11 @@ export const Schedule: React.FC<ScheduleProps> = ({ onOpenInquiry }) => {
 
           {/* Location & Opening Hours Card */}
           <div className="lg:col-span-5 space-y-6">
-            
+
             <div className="p-8 rounded-3xl bg-slate-900 border border-slate-800 space-y-6 shadow-2xl">
               <h3 className="text-2xl font-black text-white uppercase tracking-tight flex items-center gap-2">
                 <MapPin className="w-6 h-6 text-amber-500" />
-                Visit Fitness Zone
+                Visit The Gym
               </h3>
 
               <div className="space-y-4 text-sm text-slate-300">

@@ -1,12 +1,12 @@
 import { Program, MembershipPlan, Trainer, Testimonial, ScheduleItem, TransformationStory } from '../types';
 
 export const GYM_DETAILS = {
-  name: 'Aura X Gym',
-  tagline: 'Hyderabad’s Premier High-Energy Gym & Fitness Center',
-  phone: '7093825214',
-  phoneFormatted: '+91 7093825214',
-  whatsappUrl: 'https://wa.me/917093825214?text=Hi%20Fitness%20Zone%20Hyderabad!%20I%20would%20like%20to%20book%20a%20Free%20Trial%20Pass.',
-  address: 'Prashanti Nagar, IDA Kukatpally, Kukatpally, Hyderabad, Telangana 500072',
+  name: 'LOGO Gym',
+  tagline: 'LOGO Gym  & Fitness Center',
+  phone: '+91 9876543210',
+  phoneFormatted: '+91 9876543210',
+  whatsappUrl: 'https://wa.me/917093825214?text=Hi%20LOGO%20Gym!%20I%20would%20like%20to%20book%20a%20Free%20Trial%20Pass.',
+  address: 'Kukatpally, Kukatpally, Hyderabad, Telangana 500072',
   area: 'Kukatpally, Hyderabad',
   googleMapsUrl: 'https://maps.app.goo.gl/4j4W662oM7tB29Qf8',
   hours: {
@@ -182,7 +182,7 @@ export const TESTIMONIALS: Testimonial[] = [
     area: 'Jubilee Hills, Hyderabad',
     role: 'Software Architect',
     achievement: 'Lost 14 kg in 4 Months',
-    review: 'Aura X transformed my lifestyle! Being an IT professional sitting 10 hours a day, I had severe back pain and weight gain. Coach Vikram built a realistic plan that fit my work schedule. Best gym in Jubilee Hills!',
+    review: 'The Gym transformed my lifestyle! Being an IT professional sitting 10 hours a day, I had severe back pain and weight gain. Coach Vikram built a realistic plan that fit my work schedule. Best gym in Jubilee Hills!',
     rating: 5,
     imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200',
     program: 'Personal Training + Fat Loss',
@@ -193,7 +193,7 @@ export const TESTIMONIALS: Testimonial[] = [
     area: 'Madhapur, Hyderabad',
     role: 'Product Designer',
     achievement: 'Gained Tone & Reduced Body Fat %',
-    review: 'The energy at Aura X is unmatched. Super clean facilities, friendly coaches, and a very safe & empowering environment for women. Sneha ma’am’s diet chart worked wonders without starving!',
+    review: 'The energy at The Gym is unmatched. Super clean facilities, friendly coaches, and a very safe & empowering environment for women. Sneha ma’am’s diet chart worked wonders without starving!',
     rating: 5,
     imageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200',
     program: 'Zumba & Strength Training',

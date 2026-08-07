@@ -76,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
           />
           <div>
             <div className="text-xl sm:text-2xl font-black tracking-tight text-white flex items-center gap-1">
-              AURA X<span className="text-amber-500">GYM</span>
+              GYM<span className="text-amber-500">LOGO</span>
             </div>
             <div className="text-[10px] text-slate-400 font-semibold uppercase tracking-widest -mt-1">
               Hyderabad
@@ -140,7 +140,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
               onClick={() => scrollToSection('about')}
               className="text-left py-2 border-b border-slate-800/80 hover:text-amber-400"
             >
-              About Aura X
+              About GYM
             </button>
             <button
               onClick={() => scrollToSection('programs')}

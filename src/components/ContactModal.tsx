@@ -53,7 +53,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
             </div>
             <h3 className="text-2xl font-black text-white">Inquiry Sent!</h3>
             <p className="text-slate-300 text-sm">
-              We are opening WhatsApp now to connect you directly with Fitness Zone desk in Jubilee Hills / Madhapur.
+              We are opening WhatsApp now to connect you directly with The Gym desk in Kukatpally.
             </p>
             <button
               onClick={() => {
@@ -69,7 +69,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
           <div>
             <div className="flex items-center gap-2 text-xs font-bold text-amber-400 uppercase tracking-widest mb-1">
               <Flame className="w-4 h-4 text-red-500" />
-              Aura X Hyderabad
+              The Gym
             </div>
 
             <h3 className="text-2xl font-black text-white uppercase mb-2">

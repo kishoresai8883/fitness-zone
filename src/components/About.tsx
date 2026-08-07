@@ -19,7 +19,7 @@ export const About: React.FC<AboutProps> = ({ onOpenInquiry }) => {
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 font-extrabold text-xs tracking-widest uppercase">
             <Sparkles className="w-3.5 h-3.5" />
-            About AURA X
+            About The Gym
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white uppercase tracking-tight">
             WHERE HYDERABAD COMES TO <span className="text-amber-500">TRANSFORM</span>
@@ -95,7 +95,7 @@ export const About: React.FC<AboutProps> = ({ onOpenInquiry }) => {
             </h3>
 
             <p className="text-slate-300 text-base leading-relaxed">
-              At Aura X Gym Hyderabad, we believe fitness should not be confusing or intimidating. Whether you are stepping into a gym for the first time or prepping for elite athletic conditioning, our certified coaches create custom roadmaps tailored to your body type, busy routine, and nutrition preferences.
+              At The Gym, we believe fitness should not be confusing or intimidating. Whether you are stepping into a gym for the first time or prepping for elite athletic conditioning, our certified coaches create custom roadmaps tailored to your body type, busy routine, and nutrition preferences.
             </p>
 
             {/* Feature Checklist */}
@@ -124,7 +124,7 @@ export const About: React.FC<AboutProps> = ({ onOpenInquiry }) => {
                 </div>
                 <div>
                   <div className="text-xs text-slate-400 font-bold uppercase">Location</div>
-                  <div className="text-sm font-bold text-white">Prashanthi Nagar, Kukatpally</div>
+                  <div className="text-sm font-bold text-white">Kukatpally, Hyderabad</div>
                 </div>
               </div>
 
